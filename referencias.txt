@@ -1,0 +1,3 @@
+http://inter04.tse.jus.br/ords/dwtse/f?p=1001:10:15487817681137::NO:::
+https://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais
+https://www.amcharts.com/svg-maps/?map=brazil
