@@ -27,9 +27,9 @@ const NewButton = styled('button')`
 
 function LoginView(){
 
-    const [state, setState] = useState('SP');
-    const [city, setCity] = useState('SÃO PAULO');
-    const [position, setPosition] = useState('VEREADOR');
+    const [state, setState] = useState('');
+    const [city, setCity] = useState('');
+    const [position, setPosition] = useState('');
     const [educationData, setEducationData] = useState('');
     const [genreData, setGenreData] = useState('');
     const [breedData, setBreedData] = useState('');
