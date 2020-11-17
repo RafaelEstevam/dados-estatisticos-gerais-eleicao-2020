@@ -1,5 +1,4 @@
 import dataUtils
-import csvUtils
 
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS, cross_origin
@@ -12,7 +11,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def hello():
     return "Hello"
 
-@app.route("/candidados", methods=['GET'])
+@app.route("/candidatos", methods=['GET', 'POST'])
 @cross_origin()
 def getDataCSVByState():
     return dataUtils.getCSVByState(request)

@@ -1,5 +1,19 @@
-# narutoHelpDesk
+# FRONTEND Dados estatísticos gerais Eleições 2020
 
-Test Build in Local
+## Inicialização do projeto
 
-https://www.npmjs.com/package/http-server
+Instalação dos pacotes para inicializar o front-end:
+
+```
+npm install
+
+```
+
+## Rodando o React
+
+Para rodar o React em ambiente de desenvolvimento:
+
+```
+npm start
+
+```

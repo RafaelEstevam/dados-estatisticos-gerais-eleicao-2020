@@ -1,18 +1,30 @@
 import pandas as pd
 import csv
 import json
+import numpy as np
+
+def generateList(dataset):
+
+    newList = []
+    newdata = list(dataset.items())
+    items = np.array(newdata)
+
+    for item in items : 
+        newList.append({"name": item[0], "value": int(item[1])})
+
+    return newList
 
 def getMoreData(newData):
-    data = pd.read_json(newData, orient='records')
+    data = pd.read_json(newData)
 
     genre = data.groupby(['DS_GENERO'])['DS_GENERO'].count().to_dict()
     education = data.groupby(['DS_GRAU_INSTRUCAO'])['DS_GRAU_INSTRUCAO'].count().to_dict()
     breed = data.groupby(['DS_COR_RACA'])['DS_COR_RACA'].count().to_dict()
 
     extraData = {
-        "GÊNERO" : genre,
-        "COR" : education,
-        "RAÇA" : breed,
+        "genero" : generateList(genre),
+        "instrucao" : generateList(education),
+        "raca" : generateList(breed)
     }
 
     return extraData
@@ -32,8 +44,8 @@ def getCSVByState(request):
     newData = data.to_json(orient='records')
 
     allData = {
-        "CANDIDATOS" : json.loads(newData),
-        "DADOS_ADICIONAIS" : getMoreData(newData)
+        "candidatos" : json.loads(newData),
+        "dados_adicionais" : getMoreData(newData)
     }
     
     return allData

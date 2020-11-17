@@ -16,9 +16,9 @@ const bgCard = '#352d4c';
 
 const draculaPrimary = '#7077f9';
 const draculaDark = '#21222c';
-const draculaSuccess = '#27b163';
-const draculaDanger = '#c76dc6';
-const draculaWarning = '#e4fa81';
+const draculaSuccess = '#b16d27';
+const draculaDanger = '#ff66cc';
+const draculaWarning = '#d44242';
 const draculaInfo = '#00abd0';
 const draculaSecondary = '#dc6d36';
 const draculaInverse = '#282a36';
