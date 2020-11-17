@@ -13,6 +13,13 @@ http://127.0.0.1:5000/candidatos
 
 ```
 
+A aplicação estará inicializada em:
+
+```
+http://localhost:3000
+
+```
+
 ## Origem dos dados
 
 Os dados foram retirados do <a target="_blank" href="https://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais">portal do TSE</a>
@@ -20,3 +27,7 @@ Os dados foram retirados do <a target="_blank" href="https://www.tse.jus.br/elei
 ## Observações
 
 O Distrito Federal não está na base de dados pois não possui eleição para Prefeito e Vereador.
+
+## DEMO
+
+![](demo.gif)
