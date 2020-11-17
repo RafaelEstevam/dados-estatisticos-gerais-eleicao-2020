@@ -104,15 +104,15 @@ function LoginView(){
             <Container fluid>
                 <Row>
                     <Col md="12" className="bg-dark">
-                        <h4 className="font-weight-light text-white text-center py-2">Dados estatísticos e gerais da <span className="font-weight-bold">eleição 2020</span></h4>
+                        <h2 className="font-weight-light text-white text-center py-2">Dados estatísticos e gerais da <span className="font-weight-bold">eleição 2020</span></h2>
                     </Col>
                 </Row>
 
-                <Space height={'15px'}/>
+                <Space height={'30px'}/>
 
                 <Row>
                     <Col md="2">
-                        <h2>Busca detalhada</h2>
+                        <h4 className="text-center">Busca detalhada</h4>
                         
                         <Space height={'15px'}/>
 
@@ -157,6 +157,9 @@ function LoginView(){
                             </TabList>
                                 
                             <TabPanel>
+
+                                <Space height={'15px'}/>
+
                                 <Row>
                                     <Col md="12">
                                         <div class="jumbotron">
