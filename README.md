@@ -3,7 +3,8 @@
 Mostar dados estatísticos gerais dos candidados às Eleições de 2020 no Brasil.
 
 Com base nos dados no banco de dados e com a busca do usuário, o serviço irá fornecer uma lista de candidos e algumas análises sobre
-o perfil dos candidatos, como cor, escolaridade e gênero.
+o perfil dos candidatos, como cor, escolaridade e gênero. Além disso, o usuário pode consultar mais dados de um candidato específico
+encontrado na consulta.
 
 A api disponível é:
 
