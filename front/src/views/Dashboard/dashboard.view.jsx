@@ -181,7 +181,7 @@ function LoginView(){
                                         <PieChartComponet loading={showLoading} data={genreData} title={"Gênero"} colors={"genre"}/>
                                     </Col>
                                     <Col md="4">
-                                        <PieChartComponet loading={showLoading} data={breedData} title={"Raça"} colors={"breed"}/>
+                                        <PieChartComponet loading={showLoading} data={breedData} title={"Cor"} colors={"breed"}/>
                                     </Col>
                                 </Row>
                             </TabPanel>
