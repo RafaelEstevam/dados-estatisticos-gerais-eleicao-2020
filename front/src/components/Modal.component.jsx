@@ -38,7 +38,7 @@ function ModalComponent({show ,handleClose, data}) {
                 </Row>
                 <Row>
                     <Col md="6">
-                        <p><b>Estado Civil: </b> {data.DS_OCUPACAO}</p>
+                        <p><b>Ocupação: </b> {data.DS_OCUPACAO}</p>
                     </Col>
                 </Row>
             </Modal.Body>
