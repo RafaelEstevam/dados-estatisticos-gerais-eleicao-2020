@@ -8,7 +8,7 @@ o perfil dos candidatos, como cor, escolaridade e gênero.
 A api disponível é:
 
 ```
-http://localhost:5000/candidatos
+http://127.0.0.1:5000/candidatos
 
 ```
 
