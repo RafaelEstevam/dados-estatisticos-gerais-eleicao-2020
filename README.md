@@ -27,6 +27,7 @@ Os dados foram retirados do <a target="_blank" href="https://www.tse.jus.br/elei
 ## Observações
 
 O Distrito Federal não está na base de dados pois não possui eleição para Prefeito e Vereador.
+Desenvolvido por Rafael Estevam de Oliveira, aluno de estrutura de dados do curso ADS B - FATEC 2020.
 
 ## DEMO
 
